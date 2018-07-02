@@ -1,0 +1,295 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+
+#initial {
+	margin-top: 0;
+	margin-left: 0;
+	height: 535px;
+	width: 100%;
+	background-image: url(../assets/images/hero.gif);
+	background-size: 100%;
+	background-position: center;
+}
+
+nav {
+	width: 100%;
+	height: 115px;
+	padding-top: 11px;
+	padding-bottom: auto;
+}
+
+nav img {
+	max-width: 64px;
+	margin-top: 17.83px;
+	margin-left: 80px;
+}
+
+nav ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-right: 100px;
+}
+
+nav li {
+	display: inline-block;
+	line-height: 27px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	padding: 24px;
+}
+
+nav li p {
+	margin: 0;
+	line-height: 27px;
+	padding: 8px 16px;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+
+#white-display{
+	float: right;
+	background-color: white;
+	padding: 65px 65px;
+	height: 420px;
+	width: 650px;
+}
+
+#white-display h1,
+#white-display h2 {
+	color: #352384;
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 44px;
+}
+
+#white-display p:first {
+	color: #352384;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-top: 8px;
+	margin-bottom: 0;
+	font-size: 18px;
+}
+
+input {
+	border: none;
+	width: 427px;
+	padding: 23px 12px 5px 0;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 24px;
+	
+}
+
+input::placeholder {
+	color: #bfc7d9;
+}
+
+.button {
+	width: 180px;
+	height: 52px;
+	margin-right: 0;
+	float: left;
+}
+
+.first {
+	text-decoration: none;
+	color: white;
+	display: block;
+	line-height: 52px;
+	text-align: center;
+	background-color: #FF00BF;
+	border-radius: 10px;
+	font-weight: normal;
+}
+
+.second {
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+}
+
+.sub-text {
+	clear: both;
+	font-size: 10px;
+	line-height: 14px;
+	color: #728099;
+	font-weight: 300;
+}
+
+#display-two {
+	margin-top: 60px;
+	width: 100%;
+	height: 80%;
+	background-image: linear-gradient(#76278F, #2B1E66);
+	box-shadow: 0 0 150px 85px #76278f;
+}
+
+#text {
+	width: 650px;
+	padding-top: 90px;
+	color: white;
+	padding-left: 150px;
+	padding-right: 60px;
+	padding-bottom: 40px;
+	letter-spacing: .5px;
+	margin: 0;
+	display: inline-block;
+}
+
+h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+#display-two p {
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+
+#img {
+	float: right;
+	width: 490px;
+	height: 500px;
+	background-image: url(../assets/images/phone.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-right: 140px;
+	margin-top: 70px;
+}
+
+#display-three {
+	margin: 0;
+	background-color: white;
+	width: 100%;
+}
+
+iframe {
+	float: right;
+	border: none;
+	height: 460px;
+	width: 838px;
+	margin: 0;
+}
+
+.paragraph {
+	display: inline-block;
+	width: 460px;
+	padding: 30px 50px;
+	height: 460px;
+}
+
+.paragraph h3,
+.paragraph p:first-child {
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: 800;
+}
+
+.paragraph p:first-child {
+	font-size: 12px;
+}
+
+#display-four iframe {
+	float: left;
+}
+
+footer {
+	margin: 0;
+	background-color: #333447;
+	text-align: center;
+	color: white;
+	padding-bottom: 20pxpx;
+}
+
+#list {
+	padding-top: 40px;
+	color: white;
+	padding-bottom: 50px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#list img {
+	max-width: 135px;
+}
+
+#list ul {
+	margin: 0 55px;
+	list-style: none;
+	display: inline-block;
+	text-align: left;
+	padding: 0;
+}
+
+#list li {
+	margin: 25px;
+}
+
+#list ul:last-of-type {
+	margin-left: 100px;
+}
+
+#list li a {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	text-decoration: none;
+	color: white;
+}
+
+#list h3 a {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 500;
+	padding-bottom: 8px;
+}
+
+#list li a:hover {
+	text-decoration: underline;
+	color: #FF00BF;
+}
+
+#list h3 a:hover {
+	color: white;
+}
+
+#icones ul {
+	list-style: none;
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+
+#icones li {
+	display: inline-block;
+	margin: 0 35px 20px 35px;
+	line-height: 35px;
+	border: 1px solid white;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+}
+
+hr {
+	width: 60%;
+}
+
+footer p {
+	margin-top: 50px;
+}
